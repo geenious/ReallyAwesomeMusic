@@ -10,6 +10,12 @@ body {
   background-color: #E1E6FA;
 }
 
+main {
+  min-height: calc(100vh - 50px);
+  position: relative;
+  padding-bottom: 50px;
+}
+
 header {
   display: flex;
   flex-wrap: wrap;
@@ -93,8 +99,7 @@ footer {
   color: #E1E6FA;
   text-align: center;
   line-height: 2.6em;
-}
-
-footer p {
-  margin: 20px 0 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }

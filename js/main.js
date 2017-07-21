@@ -50,7 +50,11 @@ form.addEventListener('submit', function(evt){
       if (evt.target.tagName === "A") {
         console.log(evt.target.title);
         let audioSource = evt.target.title;
-
+        audio.src = audioSource;
+        audio.play();
+      }
+      if (evt.target.id === "album") {
+        let audioSource = evt.target.title;
         audio.src = audioSource;
         audio.play();
       }
