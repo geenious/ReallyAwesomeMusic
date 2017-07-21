@@ -29,7 +29,7 @@ form.addEventListener('submit', function(evt){
   .then(function(data) {
     console.log(data);
 
-    let html = `<h4>Search Results:</h4>`;
+    let html = `<h3>Search Results:</h3>`;
 
     for (let i = 0; i < data.results.length; i++) {
       let obj = data.results[i];

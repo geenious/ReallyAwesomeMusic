@@ -1,3 +1,51 @@
+/*colors
+#e1e6fa
+#c4d7ed
+#abc8e2
+#375d81
+#183152*/
+
+body {
+  margin: 0;
+  background-color: #E1E6FA;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: 'Artifika', serif;
+  padding: 10px 20px 20px;
+}
+
+h1 {
+  color: #183152;
+}
+
+.logo {
+  height: 80px;
+}
+
+section.player {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-top: 2px solid #183152;
+  border-bottom: 2px solid #183152;
+  padding: 30px 0;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#search {
+  flex-basis: 40%;
+  line-height: 2.6em;
+}
+
 #search-results {
   display: flex;
   flex-wrap: wrap;
@@ -6,24 +54,47 @@
 
 #search-results h4 {
   flex-basis: 100%;
+  color: #183152;
+}
+
+#search-results h3 {
+  flex-basis: 100%;
+  color: #183152;
+  padding-left: 50px;
 }
 
 #result {
   text-align: center;
   flex-basis: 15%;
   margin: 2.5%;
+  box-shadow: inset 0px 0px 40px #375d81;
+  border-radius: 10px;
 }
 
 #album {
-  margin: 0 auto 20px;
+  margin: 20px auto 20px;
   height: 100px;
   width: 100px;
 }
 
 #album:hover {
-  
+
 }
 
 #track-link {
   margin-top: 120px;
+  padding: 0 5px;
+  color: #375d81;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #183152;
+  color: #E1E6FA;
+  text-align: center;
+  line-height: 2.6em;
+}
+
+footer p {
+  margin: 20px 0 0;
 }
